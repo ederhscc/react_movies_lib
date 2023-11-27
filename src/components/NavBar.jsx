@@ -11,10 +11,13 @@ const NavBar = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Não tendo busca permanece na página.
     if (!search) return;
 
+    // Tendo busca acessa /search e passa a busca para a url.
     navigate(`/search?q=${search}`);
-
+    
+    // Limpa o campo de busca. 
     setSearch("");
   };
 
