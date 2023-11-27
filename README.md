@@ -90,7 +90,7 @@ npm run dev
 
 ## Links 🔗
 
-Deploy: https://ederhscc.github.io/react_movies_lib/
+Deploy: https://react-movies-ecuriw999-ederhscc.vercel.app/
 
 <div align="left">
 
