@@ -5,6 +5,7 @@ import {
   BsWallet2,
   BsHourglassSplit,
   BsFillFileEarmarkTextFill,
+  BsCameraVideo,
 } from "react-icons/bs";
 import MovieCard from "../components/MovieCard";
 import "./Movie.css";
@@ -62,6 +63,14 @@ const Movie = () => {
             </h3>
             <p>{movie.runtime} minutos</p>
           </div>
+          {movie.genres.length > 0 && (
+            <div className="info">
+              <h3>
+                <BsCameraVideo /> Gênero:
+              </h3>
+              <p>{movie.genres[0].name}</p>
+            </div>
+          )}
           <div className="info description">
             <h3>
               <BsFillFileEarmarkTextFill /> Descrição:
