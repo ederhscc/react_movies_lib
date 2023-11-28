@@ -40,3 +40,16 @@
     background-color: transparent;
     color: #F7D354;
 }
+
+@media (max-width: 600px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #navbar h2 {
+        margin-bottom: 0.5rem;
+    }
+
+}

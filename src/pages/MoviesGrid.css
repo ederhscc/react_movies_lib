@@ -59,4 +59,18 @@
     color: #F7D354;
 }
 
+@media (max-width: 600px) {
+    .container .title {
+        font-size: 1.6rem;
+    }
+    .movies-container div{       
+        width: 100%;
+    }
+    .movies-container .movie-card h2 {
+        font-size: 1.2rem;
+    }
+    
+    
+}
+
 
